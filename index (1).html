@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>동아리회</title>
+    <link rel="stylesheet" href="index.css">
+    
+    
+    
+    <style>
+        .pnuimg{
+            float:left;
+            padding:4px;
+            margin-top:15px;
+
+
+        }
+        .name{
+            float:left;
+            margin-top:13px;
+        }
+      
+   
+        .blinking{ -webkit-animation:blink 0.5s ease-in-out infinite alternate; -moz-animation:blink 1.5s ease-in-out infinite alternate; animation:blink 1.5s ease-in-out infinite alternate; } @-webkit-keyframes blink{ 0% {opacity:0;} 100% {opacity:1;} } @-moz-keyframes blink{ 0% {opacity:0;} 100% {opacity:1;} } @keyframes blink{ 0% {opacity:0;} 100% {opacity:1;} }
+
+        .right{font-family: 'Do Hyeon', sans-serif;}
+        .code{
+            background-color:rgb(177, 229, 250);
+            
+        }
+        .password{
+            background-color:rgb(177, 229, 250);
+            
+
+        }
+        .button{
+            background-color:gray;
+            color:white;
+            border-radius:5px;
+            
+        }
+        .votesubmit{
+            background-color:gray;
+            color:white;
+            border-radius:5px;
+        }
+
+       
+    </style>
+</head>
+<body>
+    
+    <header>
+        <img src="스크린샷(654).png" class="pnuimg">
+        <div class="name">
+        <h2 class="name" style="color:gray; ">부산대학교 동아리
+        <h4 style="color:rgb(182, 180, 180);">Pusan National University Club</h4></h2>
+        </div>
+        <img src="로고이미지.gif" class="logoimg">
+        
+        <input type ="text" size="20" class="code">
+        <input type ="text" size="20" class="password">
+        <button type ="button" onclick="alert('아이디 또는 비밀번호가 틀렸습니다.')" class="button">로그인</button>
+        <select name="language">
+            <option value="">언어선택</option>
+            <option value="학생">한국어</option>
+            <option value="회사원">English</option>
+            <option value="기타">汉语</option>
+        </select>
+        </div>
+    
+        <br>
+        <br>
+    
+    </header>
+    
+    <div class="right">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+        <div class="search">
+            <form action="/examples/media/action_target.php" method="get"></form>
+            <fieldset>
+                <legend ></legend>
+                <input type ="text" size="20" class="search">
+                <button type="submit" onclick="alert('검색한 결과가 없습니다.')" class="votesubmit">검색</button><br>
+            </fieldset>
+            <br><h2><span class="image blinking">우수 동아리회</span></h2>
+        <img src="멋사.gif" style=" width: 230px; height: 180px;">
+        </div>
+
+        <div class="checkbox">
+            <form action="/examples/media/action_target.php" method="get"></form>
+                <fieldset>
+                    <legend><h2>선호하는 모임장소?</h2></legend>
+                    <label><input type="checkbox" name="cafe1" value="1" class="checkbox">카페드팽</label><br>
+                    <label><input type="checkbox" name="cafe2" value="2" class="checkbox">스타벅스</label><br>
+                    <label><input type="checkbox" name="cafe3" value="3" class="checkbox">할리스</label><br>
+                    <label><input type="checkbox" name="cafe4" value="4" class="checkbox">에타리</label><br><br>
+        
+                    <button type="submit" onclick="alert('제출되었습니다!')" class="votesubmit">제출</button><br>
+                </fieldset>
+            </form>
+        </div>
+
+
+        <br><h2><span class="image blinking">동아리원 모집중</span></h2>
+                    <img src="https://media.giphy.com/media/1ZDI2ru181F7tqIwFn/giphy.gif" style=" width: 230px; height: 190px;">
+                    <h4>쎄리라메 야구동아리(~5/1)</h4><br>
+                    <img src="https://media.giphy.com/media/1gPxjHpmwARe0olb1H/giphy.gif" style=" width: 230px; height: 190px;">
+                    <h4>득근 헬스동아리(~5/2)</h4><br>
+                    
+   </div>
+    <aside>
+        
+
+        <div class="leftmenu">
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#" color="blue;">동아리회</a>
+                <a href="#">공지사항</a><br>
+                <a href="#">연합동아리</a>
+                <a href="#">멋쟁이사자 처럼</a><br>
+                <a href="#">교내동아리</a>
+                <a href="#">마음빼기</a>
+                <a href="#">쎄리라메</a>
+                <a href="#">득근</a><br>
+                <a href="#">Q&A</a>
+              </div>
+              
+        
+              <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+               
+              <script>
+              function openNav() {
+                  document.getElementById("mySidenav").style.width = "200px";
+              }
+              
+              function closeNav() {
+                  document.getElementById("mySidenav").style.width = "0";
+              }
+              </script>
+              
+              </div>
+
+    
+        
+        </form>
+    </aside>
+    
+    <nav>
+        
+        
+    </nav>
+    
+
+
+    <div class="container">
+        <article class="item">
+    
+            
+            
+            
+            <a href="https://blog.naver.com/wawa0615">
+                <img src="동아리공지.jpg" class="myimg"style="float:left; margin-left: auto; margin-right: auto; display: block;">
+                <img src="마스크 (2).jpg" class="mask"style="float:left; margin-left: auto; margin-right: auto; display: block;">
+                <img src="학교.jpg" class="school"style="float:left; margin-left: auto; margin-right: auto; display: block;">
+
+            </a>
+               
+            
+        </article>
+        <article class="three">
+
+        <img src="포스터1.gif" class="myimg"style="margin:15px; width:300px; height:300px; ">
+        <img src="포스터2.gif" class="myimg"style="margin:15px; width:300px; height:300px; ">
+        <img src="포스터3.gif" class="myimg"style="margin:15px; width:300px; height:300px; ">
+
+        </article>
+    
+    </div>
+    
+
+
+        
+    </div>
+    
+    <footer>
+        <h4 style="color:white">개인정보처리방침</h4>
+        <span style="color:white">(46241) 부산광역시 금정구 부산대학로63번길 2 (장전동) 부산대학교 Tel : 051-510-2000 wawa0615@pusan.ac.kr</span>
+        <br>
+        <br>
+        <span style="color:gray">COPYRIGHTⒸ Jiwon Choi</span>
+    </footer>
+</body>
+</html>
